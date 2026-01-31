@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOU ARE CORRECT</title>
+</head>
+<body>
+    <h1>GOOD JOB</h1>
+    <style>
+        body{
+            background-image: url(/static/correct.jpg);
+        } 
+        h1{
+            text-align:center;
+            
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #22618b;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 2rem;
+        }
+    </style>
+    <a href="{{ url_for("quiz12") }}" class="button">continue</a>
+</body>
+</html>

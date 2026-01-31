@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <h1>Quizes</h1>
+
+</head>
+<body>
+    <h2>Quiz 1</h2>
+
+<form action="/QUIZ11" method="get">
+    <button type="submit" style="border: none; background: none; padding: 0;">
+        <img src="static\Без названия.jpg" alt="Image Button" width="300">
+    </button>
+</form>
+
+<h2>Quiz 2</h2>
+        
+<form action="/QUIZ21" method="get">
+    <button type="submit" style="border: none; background: none; padding: 0;">
+        <img src="static\main.jpg" alt="Image Button" width="200">
+    </button>
+</form>
+<a href = "{{ url_for("index") }}" class = "button">HOME</a>
+</body>
+</html>
